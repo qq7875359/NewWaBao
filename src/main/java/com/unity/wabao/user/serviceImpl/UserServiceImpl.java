@@ -12,7 +12,23 @@ public class UserServiceImpl implements UserService{
 	@Autowired
 	private UserMapper userMapper;
 	
-	public String getUsername(int id){
+	public String get(int id){
 		return userMapper.get(id);
 	}
+	
+	//校验手机号是否唯一
+	public boolean checkTel(String tel){
+		int result = userMapper.checkTel(tel);
+		if(result==0){
+			return false;
+		}
+		return true;
+	}
+	
+	
+	
+	
+	
+	
+	
 }

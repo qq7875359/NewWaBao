@@ -61,10 +61,9 @@
                         <button type="button" class="btn btn-green block btn-login" onclick="checkForm()">登录 </button>
                     </div>
                     
-                    <div class="form-item form-button">
-                        <button type="button" class="btn btn-green block btn-login" onclick="checkForm()"> </button>
-                    </div>
-                                                                            
+                    <div style="margin-left:210px">
+					<a href="${pageContext.request.contextPath}/user/get_upLogin" class="btn btn-link">使用手机号登录</a> 
+					</div>                                                                          
 				</form>
 			</div>
 		</div>

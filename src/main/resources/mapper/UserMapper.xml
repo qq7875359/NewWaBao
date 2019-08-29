@@ -9,4 +9,7 @@
 	  	select password from user where id=#{id}
 	  </select>
 	  
+	  <select id="checkTel" parameterType="string" resultType="int">
+	  	select count(1) from user where tel = #{tel}
+	  </select>
 	</mapper>

@@ -1,5 +1,6 @@
 package com.unity.wabao.user.service;
 
 public interface UserService {
-	String getUsername(int id);
+	boolean checkTel(String tel);
+	String get(int id);
 }

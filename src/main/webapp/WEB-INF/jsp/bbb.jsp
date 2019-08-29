@@ -5,6 +5,6 @@
 <title></title>
 </head>
 <body>
-	这是以个404的界面
+	我失败了!
 </body>
 </html>
